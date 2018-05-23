@@ -16,24 +16,27 @@ body{
     font-size: 50px;
     line-height: 90px;
     color: rgb(138, 155, 76);
-    transition: color .8s, background-color .5s;
+    border-bottom: #1d3014 solid 2px;
+    transition: color .8s, background-color .5s, border-bottom 0.1s;
 
 }
 
 #nav:hover{
 color: gold;
-background: rgb(56, 19, 19);
+background: #381313;
+border-bottom: #381313 solid 2px;
 }
 
 
 #p_wrapper{
     text-align: center;
     font-size: 30px;
-    background: rgb(109, 56, 25);
+    background: #6d3819;
     color: rgb(190, 255, 177);
     width: 960px;
     margin: 0 auto;
     margin-top: 50px;
+    border: solid 2px #4e2812;
 }
 
 
@@ -82,17 +85,16 @@ background: rgb(56, 19, 19);
     margin-top: 50px;  
     color:#3d1f17; 
     height: 55px;
-    font-size: 50px;
+    font-size: 40px;
 
 }
 
 #wins{
     float: left;
     border: 2px solid #3d1f17;
+    width: 180px;
     
 }
-
-
 
 #random_number_displayed{
     margin: 0 auto;
@@ -106,30 +108,96 @@ background: rgb(56, 19, 19);
     float: right;
     border: 2px solid #3d1f17;
     position: relative;
-    bottom: 55px;
+    bottom: 45px;
+    width: 180px;
 }
 
-.button_wrapper{
-    width: 730px;
-    height: 200px;
+.guess_wrapper{
+    width: 600px;
+    height: 100px;
+    background: #82c93f;
     margin: 0 auto;
-    background: red;
+    margin-top: 20px;
+    font-size: 30px;
+    color:#3d1f17; 
+    text-align: center;
+}
+
+#displayed_guessed_sum{
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid #3d1f17;
+    width: 100px;
+}
+
+
+.button_wrapper{
+    width: 710px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
 
 #button1_div{
     float: left;
-    margin-right: 95px;
+    margin-right: 50px;
+    border: 4px solid #703377;
+    border-radius: 50%;
+    padding: 25px 25px 25px 27px ;
+    background: #5cbfd1;
+    transition: all 0.3s ease;
 }
+
+#button1_div:hover {
+    background: #36707a; 
+    border: 4px solid #57285c;   
+}
+
 #button2_div{
     float: left;
-    margin-right: 95px;
+    margin-right: 50px;
+    border: 4px solid #a2fcff;
+    border-radius: 50%;
+    padding: 17px ;
+    background: #5ef150;
+    transition: all 0.3s ease;
 }
+
+#button2_div:hover {
+    background: #378f30; 
+    border: 4px solid #5f9496;   
+}
+
+
 #button3_div{
     float: left;
-    margin-right: 95px;
+    margin-right: 50px;
+    border: 4px solid #b3a2ff;
+    border-radius: 50%;
+    padding: 27px ;
+    background: #fa7777;
+    transition: all 0.3s ease;
 }
+
+#button3_div:hover {
+    background: #994747; 
+    border: 4px solid #6e649b;   
+}
+
+
 #button4_div{
     float: left;
+    border: 4px solid #ffa2a2;
+    border-radius: 55%;
+    padding: 24px 16px 24px 18px ;
+    background: #ebd0d0;
+    transition: all 0.3s ease;
+}
+
+#button4_div:hover {
+    background: #996b6b; 
+    border: 4px solid #b86d6d;   
 }
 
 

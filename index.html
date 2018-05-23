@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Jewel Picking Game!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets\css\reset.css">
     <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 
@@ -64,7 +65,7 @@
         <br>
         <br>
         <p>
-            There are four different elements below. By clicking on a crystal you will add a specific amount of points to your total
+            There are four different gems below. By clicking on a gem you will add a specific amount of points to your total
             score.
         </p>
         <br>
@@ -76,7 +77,7 @@
         <br>
         <br>
         <p>
-            The value of each crystal is hidden from you until you click on it.
+            The value of each gem is hidden from you until you click on it.
         </p>
         <br>
         <br>
@@ -92,6 +93,12 @@
             <div id="loses">Loses: 0</div>
         </div>
     </div>
+
+
+    <div class="guess_wrapper"> Your Total Guess is:
+        <div id="displayed_guessed_sum">0</div>
+    </div>
+
 
     <div class="button_wrapper">
         <div id="button1_div">
@@ -112,7 +119,7 @@
 
 
 
-    <script type="text/javascript" src="logic.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
