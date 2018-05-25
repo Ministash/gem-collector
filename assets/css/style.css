@@ -86,6 +86,7 @@ border-bottom: #381313 solid 2px;
     color:#3d1f17; 
     height: 55px;
     font-size: 40px;
+    
 
 }
 
@@ -93,14 +94,20 @@ border-bottom: #381313 solid 2px;
     float: left;
     border: 2px solid #3d1f17;
     width: 180px;
+    margin-top: 5px;
+    padding-top: 10px;
+    position: relative;
+    bottom: 5px;
     
 }
 
 #random_number_displayed{
     margin: 0 auto;
+    padding-top: 10px;
     border: 2px solid #3d1f17;
     width: 40%;
     text-align: center;
+    
      
 }
 
@@ -108,8 +115,10 @@ border-bottom: #381313 solid 2px;
     float: right;
     border: 2px solid #3d1f17;
     position: relative;
-    bottom: 45px;
+    bottom: 59px;
     width: 180px;
+    margin-top: 5px;
+    padding-top: 10px;
 }
 
 .guess_wrapper{
@@ -121,6 +130,8 @@ border-bottom: #381313 solid 2px;
     font-size: 30px;
     color:#3d1f17; 
     text-align: center;
+    border: 2px solid #3d1f17;
+    line-height: 35px;
 }
 
 #displayed_guessed_sum{
@@ -151,7 +162,14 @@ border-bottom: #381313 solid 2px;
 
 #button1_div:hover {
     background: #36707a; 
-    border: 4px solid #57285c;   
+    border: 4px solid #57285c; 
+    cursor: pointer;  
+}
+
+#button1_div:active {
+    background: #00d9ff; 
+    border: 4px solid #3c1b3f; 
+    cursor: pointer;  
 }
 
 #button2_div{
@@ -166,7 +184,14 @@ border-bottom: #381313 solid 2px;
 
 #button2_div:hover {
     background: #378f30; 
-    border: 4px solid #5f9496;   
+    border: 4px solid #5f9496;
+    cursor: pointer;   
+}
+
+#button2_div:active {
+    background: #11ff00; 
+    border: 4px solid #39595a; 
+    cursor: pointer;  
 }
 
 
@@ -182,23 +207,40 @@ border-bottom: #381313 solid 2px;
 
 #button3_div:hover {
     background: #994747; 
-    border: 4px solid #6e649b;   
+    border: 4px solid #6e649b;  
+    cursor: pointer; 
+}
+
+#button3_div:active {
+    background: #ff0000; 
+    border: 4px solid #413b5c; 
+    cursor: pointer;  
 }
 
 
 #button4_div{
     float: left;
-    border: 4px solid #ffa2a2;
+    border: 4px solid #87bec5;
     border-radius: 55%;
     padding: 24px 16px 24px 18px ;
-    background: #ebd0d0;
+    background: #aa93b3;
     transition: all 0.3s ease;
+    
 }
 
 #button4_div:hover {
-    background: #996b6b; 
-    border: 4px solid #b86d6d;   
+    background: #76667c; 
+    border: 4px solid #587b80; 
+    cursor: pointer;  
 }
+
+#button4_div:active {
+    background: #bb00ff; 
+    border: 4px solid #35494d; 
+    cursor: pointer;  
+}
+
+
 
 
 

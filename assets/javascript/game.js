@@ -19,7 +19,7 @@ function reset() {
     currentTotal = 0;
     guessNumber = randomNumber();
     sum.text(currentTotal);
-    $("#random_number_displayed").text(guessNumber);
+    $("#random_number_displayed").text("Number to guess: " +  guessNumber );
     gemOne = Math.floor(Math.random() * 12) + 1;
     gemTwo = Math.floor(Math.random() * 12) + 1;
     gemThree = Math.floor(Math.random() * 12) + 1;
